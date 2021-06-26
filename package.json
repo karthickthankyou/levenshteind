@@ -1,6 +1,6 @@
 {
   "name": "levenshteind",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple package that tells you a percentage of how well two strings match.",
   "main": "index.js",
   "scripts": {

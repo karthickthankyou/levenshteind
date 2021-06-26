@@ -1,14 +1,13 @@
-# levenshteind-cli
+# levenshteind
 
-A simple cli tool that tells you a percentage of how well two strings match.
+A simple package that lets you a calculate percentage of how well two strings match.
+
+```javascript
+const { similarity } = require('levenshteind')
+console.log(similarity('Karthick', 'RagavenKar'))
+```
 
 ```sh
-npx levenshteind-cli Karthick KarthickRagavendran
-```
-
-```
-Levenshtein Distance
-
-Karthick vs KarthickRagavendran
-Match Percentage: 0.42 %
+Karthick RagavenKar
+0.2
 ```
